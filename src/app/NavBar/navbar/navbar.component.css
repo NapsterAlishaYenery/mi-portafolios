@@ -1,0 +1,20 @@
+/* barra de navegacion */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+    /* media query: sirve para asignar funcionalidades al navegador
+        en este caso ocultamos el elemento con la clase navbar-brand 
+        que es la image
+    */
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+    
+}

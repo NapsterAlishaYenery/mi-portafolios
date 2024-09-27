@@ -1,0 +1,58 @@
+.testimonios{
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel{
+    max-width: 800px;
+}
+
+.carousel-item{
+    max-height: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonio-imagen{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+.testimonio-texto{
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonio-info{
+    font-weight: bold;
+    text-align: center;
+}
+.testimonio-info p{
+    margin-bottom: 0;
+}
+.testimonio-info .cliente{
+    font-size: 1.2rem;
+}
+.testimonio-info .cargo{
+    font-size: 1.2rem;
+    color: #656060;
+}
+@media screen and (max-width: 800px) {
+    .testimonio-imagen{
+        height: 120px;
+        width: 120px;    
+    }
+
+    .testimonio-texto{
+        font-size: 18px;
+    }
+}

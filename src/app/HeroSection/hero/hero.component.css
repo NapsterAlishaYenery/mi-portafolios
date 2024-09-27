@@ -1,0 +1,49 @@
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+.hero-imagen-desarrollador {
+    width: 200px;                /* Ajusta el ancho del círculo */
+    height: 200px;               /* Ajusta la altura para que coincida con el ancho */
+    border-radius: 50%;          /* Convierte la imagen en un círculo */
+    object-fit: cover;           /* Asegura que la imagen llene el área sin distorsionarse */
+    margin-bottom: 20px;         /* Espacio entre la imagen y los textos */
+    border: 4px solid #000000; /* Añasde un borde opcional para resaltar */
+}
+ .hero-inferior-imagen{
+  width: 600px;
+  height: auto;
+} 
+.hero-principal{
+  padding: 2rem;
+}
+.hero-principal h2{
+ font-size: 1.5rem;
+ color: #615151;
+}
+/*clase css para estilos de letra de google*/
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* modificar el tamaño de la imagen de perfil con media 
+   query en dispositivos menores a 767px */
+   @media screen and (max-width: 767px) {
+    .hero-imagen-desarrollador {
+      width: 90px;               /* Tamaño reducido para pantallas pequeñas */
+      height: 90px;              /* Mantiene el círculo proporcional */
+    }
+  }
+  /* modificar el tamaño de la imagen de hero con media 
+   query en dispositivos menores a 767px */
+   @media screen and (max-width: 700px) {
+    .hero-inferior-imagen {
+      /* Mantiene el tama;o en dispositimos mayores a 767 en solo 600 */
+      max-width: 100%;  
+      height: auto;
+      
+    }
+  }
